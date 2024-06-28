@@ -1,7 +1,7 @@
 pkgbase = wechat-universal-privileged
 	pkgdesc = WeChat (Universal) with bwrap sandbox
 	pkgver = 1.0.0.242
-	pkgrel = 2
+	pkgrel = 3
 	url = https://weixin.qq.com
 	arch = x86_64
 	arch = aarch64
@@ -37,7 +37,7 @@ pkgbase = wechat-universal-privileged
 	source = wechat-universal.desktop
 	source = libuosdevicea.c
 	source = libuosdevicea.Makefile
-	sha256sums = 730c1e30d92e935d7bcbd4a98c8453f759fdcfd2df3457d58d5333d6a25dadda
+	sha256sums = 0bc2318a42020d8563b1a84d2c921f4b7d3457c9ad874069e6793cce1f633fca
 	sha256sums = b783b7b0035efb5a0fcb4ddba6446f645a4911e4a9f71475e408a5c87ef04c30
 	sha256sums = fc3ce9eb8dee3ee149233ebdb844d3733b2b2a8664422d068cf39b7fb08138f8
 	sha256sums = f05f6f907898740dab9833c1762e56dbc521db3c612dd86d2e2cd4b81eb257bf

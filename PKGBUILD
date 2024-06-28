@@ -3,7 +3,7 @@
 _pkgname=wechat-universal
 pkgname=${_pkgname}-privileged
 pkgver=1.0.0.242
-pkgrel=2
+pkgrel=3
 pkgdesc="WeChat (Universal) with bwrap sandbox"
 arch=('x86_64' 'aarch64' 'loong64')
 url="https://weixin.qq.com"
@@ -54,7 +54,7 @@ source_loong64=("${_deb_url_common}_loongarch64.deb")
 noextract=("${_rpm_stem}"_{amd,arm}64.rpm "${_deb_stem}"_loongarch64.deb)
 
 sha256sums=(
-	'730c1e30d92e935d7bcbd4a98c8453f759fdcfd2df3457d58d5333d6a25dadda'
+	'0bc2318a42020d8563b1a84d2c921f4b7d3457c9ad874069e6793cce1f633fca'
 	'b783b7b0035efb5a0fcb4ddba6446f645a4911e4a9f71475e408a5c87ef04c30'
 	'fc3ce9eb8dee3ee149233ebdb844d3733b2b2a8664422d068cf39b7fb08138f8'
 	'f05f6f907898740dab9833c1762e56dbc521db3c612dd86d2e2cd4b81eb257bf'
