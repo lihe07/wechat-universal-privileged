@@ -49,7 +49,7 @@ source_loong64=("${_deb_url_common}_loongarch64.deb")
 noextract=("${_deb_stem}"_{amd,arm,loongarch}64.deb)
 
 sha256sums=(
-  'd4c225bbbf7165c016911e75b5f52fadf01d4705bdfcfc749f76a1d73f5eda0d'
+  '201466cd8b430f2991c32c508e033ab35cc53bf9cb1c750ebd79904803671d25'
   'b783b7b0035efb5a0fcb4ddba6446f645a4911e4a9f71475e408a5c87ef04c30'
   'fc3ce9eb8dee3ee149233ebdb844d3733b2b2a8664422d068cf39b7fb08138f8'
   'f05f6f907898740dab9833c1762e56dbc521db3c612dd86d2e2cd4b81eb257bf'

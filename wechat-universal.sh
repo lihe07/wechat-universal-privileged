@@ -10,9 +10,9 @@ BWRAP_ARGS=(
   --dev-bind / /
 
   # license fixups in various places
-  --ro-bind {/usr/share/wechat-universal,}/usr/lib/license
+  --ro-bind {/usr/lib/wechat-universal,}/usr/lib/license
   # --ro-bind {/usr/share/wechat-universal,}/var/
-  --ro-bind {/usr/share/wechat-universal,}/etc/lsb-release
+  --ro-bind {/usr/lib/wechat-universal,}/etc/lsb-release
 )
 
 exec bwrap "${BWRAP_ARGS[@]}" "${BWRAP_ENV_APPEND[@]}" /opt/wechat-universal/wechat "$@"
